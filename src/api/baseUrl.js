@@ -1,5 +1,5 @@
 export default function getBaseUrl() {
-  return getQueryStringParameterByName('usemockapi') ? 'http://localhost:3001/' : '/';
+  return getQueryStringParameterByName('usemockapi') ? 'http://localhost:3001/' : 'https://fathomless-dawn-52259.herokuapp.com/';
 }
 
 function getQueryStringParameterByName(name, url) {
